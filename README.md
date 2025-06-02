@@ -45,9 +45,14 @@ Durante o desenvolvimento deste projeto, foi possível:
 
 ---
 
-## EXECUÇÃO 🖥️
+## 🖥️ Execução no GitHub
 - No repositorio, clique em `<code>` e em seguida escolha o codespace ( no caso: `fluffy carnival `)
 
 - Já no ambiente virtualizado, execute no terminal o seguinte comando: `go run main.go`.
 
 - Em seguida, espere para abrir uma nova janela com o URL da requisição `http://localhost:8080/`. No caso de não abrir diretamente no seu navegador, apenas copie e cole o link.
+
+---
+## 🖥️ Caso prefira rodar de forma nativa:
+- Baixe o GO em sua máquina: https://go.dev/doc/install.
+- Depois, no VSCode instale a extensão do GO e confira se está presente usando no terminal o seguinte comando: `go version`.
