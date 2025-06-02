@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" media="all">
+    <title> HTTP/3: Estrutura, Localização no Modelo TCP/IP e Integração no Linux </title>
+</head>
+<body>
+    <header>
+        <p><a href="   https://unifsa.com.br/site/">
+        <img src="https://unifsa.com.br/site/wp-content/uploads/2023/02/LOGO-UNIFSA-2.png" alt="https://unifsa.com.br/site/" style="float:left;width:90px;height:90px;">
+        </a> </p>
+        <h1> Bem vindos ao Site !</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/projects"> Projeto</a>
+            <a href="/skills"> QUIC </a>
+            <a href="/about"> Sobre</a>
+            <a href="/contact"> Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2> História e Evolução do HTTP/3 📚 </h2>
+            <ul>
+            </p> O HTTP/3 é a terceira grande revisão do protocolo Hypertext Transfer Protocol, que rege a forma como os dados são transmitidos na web. Sua história está profundamente ligada à necessidade de superar limitações dos protocolos anteriores, principalmente o HTTP/1.1 e o HTTP/2. </p>
+            </p> HTTP/1.1 (1997): Utiliza TCP (Transmission Control Protocol) como base. Ele é confiável, mas introduz latência devido à necessidade de handshake e ao problema de head-of-line blocking (bloqueio de linha de frente), onde o atraso de um pacote afeta todos os demais na fila. </p>
+            </p> HTTP/2 (2015): Introduziu multiplexação, mas ainda usava TCP, mantendo o problema de head-of-line blocking em níveis mais baixos.</p>
+            </p> HTTP/3 (finalizado pelo IETF em 2022): Adota o QUIC (Quick UDP Internet Connections), um protocolo desenvolvido pelo Google que roda sobre UDP (User Datagram Protocol), oferecendo melhorias como: </p> 
+            <ul>
+                <li>Redução de latência com conexões mais rápidas. Eliminação do head-of-line blocking em nível de transporte. Criptografia embutida (com TLS 1.3 integrado diretamente no transporte).</li>
+                <li>Eliminação do head-of-line blocking em nível de transporte.</li>
+                <li>Criptografia embutida (com TLS 1.3 integrado diretamente no transporte).</li>
+            </ul>
+            <p style="text-align:center;">
+            <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/03/pilha-http2-versus-pilha-http3.png" alt="alternatetext">
+            </p>
+        </section>
+        <section>
+            <h2> Testes do Projeto</h2>
+            <ul>
+                <li><a href="/projects"> Dê uma olhada !</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Samuel, Caio e Ruan. | Viste o nosso repositorio <a href="https://github.com/drakenData/projetoRedes" target="_blank">GitHub</a>!</p>
+    </footer>
+</body>
+</html>
