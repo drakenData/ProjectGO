@@ -9,7 +9,7 @@ O principal objetivo do projeto é compreender na prática como funciona a comun
 - Multiplexação eficiente
 
 - Redução da latência
-- 
+  
 - Uso do protocolo QUIC (baseado em UDP)
 
 - Melhoria no desempenho em conexões instáveis
@@ -43,5 +43,11 @@ Durante o desenvolvimento deste projeto, foi possível:
 
   - Criar uma aplicação web leve, responsiva e funcional.
 
+---
 
+## EXECUÇÃO 🖥️
+- No repositorio, clique em `<code>` e em seguida escolha o codespace ( no caso: `fluffy carnival `)
 
+- Já no ambiente virtualizado, execute no terminal o seguinte comando: `go run main.go`.
+
+- Em seguida, espere para abrir uma nova janela com o URL da requisição `http://localhost:8080/`. No caso de não abrir diretamente no seu navegador, apenas copie e cole o link.
